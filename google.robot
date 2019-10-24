@@ -9,5 +9,5 @@ ${WEB}    https://www.google.co.th/
 Open Event Registration Page
     Open Browser    ${WEB}    ${BROWSER}
 	Input Text    q   cs.kku.ac.th
-	Click Button    btnK
-	
+	Submit Form    
+	Click Link    https://www.cs.kku.ac.th/
